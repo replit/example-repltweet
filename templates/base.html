@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% block head %}
+<title>{% block title %}ReplTweet{% endblock %}</title>
+<!--<link rel="icon" type="image/png" href="/static/icon.png">-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
+<link rel="stylesheet" href="/static/main.css">
+<meta name="theme-color" content="#010101">
+<meta name="description" content="{% block description %}A twitter clone made with Maqpy{% endblock %}">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:description" content="{{ self.description() }}">
+<meta property="og:site_name" content="ReplTweet">
+<meta property="og:type" content="website"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% endblock %}
+{% block css %}{% endblock %}
+</head>
+<body>
+{% block body %}
+{% if back_location %}
+<nav>
+	<a href="{{ back_location }}">
+		<svg class="backArrow" height="43" width="23">
+			<path d="M 22 0 l -20 20 l 20 20" stroke-width="3" fill="none"></path>
+		</svg>
+	</a>
+</nav>
+{% endif %}
+<main class="verticalAlign">
+	<div>
+		{% block main %}There's nothing here yet.{% endblock %}
+	</div>
+</main>
+{% block js %}{% endblock %}
+{% endblock %}
+</html>

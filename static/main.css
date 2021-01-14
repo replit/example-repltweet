@@ -1,0 +1,98 @@
+/* Credit to https://repl.it/@mat1/webconnect#static/main.css */
+.verticalAlign {
+	display: grid;
+	height: 100%;
+	align-items: center
+}
+.bigButton {
+ 	display: block;
+ 	border-radius: .2em;
+	border: .1em solid #ccc;
+	max-width: max-content;
+	padding: .5em;
+	margin: .5em;
+	font-size: 1.5em;
+	color: #ccc;
+	cursor: pointer;
+	transition-duration: 200ms;
+	text-decoration: none!important
+}
+.horizontalCenterList {
+	display: flex;
+	justify-content: center
+}
+.centerText {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+
+/* Loading symbol */
+.spinner {
+    display: inline-block;
+}
+.spinner-med {
+    width: 80px;
+    height: 80px;
+}
+.spinner-sm {
+    width: 25px;
+    height: 25px;
+}
+.spinner:after {
+    content: " ";
+    display: block;
+    /*margin: 8px;*/
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #fff transparent #fff transparent;
+    animation: spinner 1.2s linear infinite;
+}
+.spinner-med:after {
+    width: 64px;
+    height: 64px;
+    border-width: 6px;
+}
+.spinner-sm:after {
+    width: 20px;
+    height: 20px;
+    border-width: 3px;
+}
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.tweet-name {
+    margin-right: 5px;
+}
+.like .trash {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.like {
+    color: red;
+}
+.trash {
+    color: grey;
+}
+.feed-header {
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 1.17em;
+    padding: 10px;
+}
+#refresh-btn {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#refresh-icon {
+    font-size: 15px;
+}
+.likes-label {
+    margin: 5px;
+}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}ReplTweet - Feed{% endblock %}
+{% block css %}
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+{% endblock %}
+{% block main %}
+    <div>Signed in as <b>{{ name }}</b></div>
+    <div>
+        <textarea id="tweet-area" rows=8 placeholder="Write a tweet"></textarea>
+        <button id="tweet-btn">Post</button>
+    </div>
+    <div>
+        <span class="feed-header">Feed</span>
+        <button id="refresh-btn" title="Refresh Feed">
+            <i id="refresh-icon" class="fa fa-refresh" aria-hidden="true"></i>
+        </button>
+    </div>
+    <div id="tweets"></div>
+{% endblock %}
+{% block js %}
+<script>
+const USERNAME={{ name|tojson|safe }};const MOD={{ mod|tojson|safe }}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script src="/static/feed.js"></script>
+{% endblock %}
