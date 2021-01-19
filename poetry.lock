@@ -206,7 +206,7 @@ description = "parse() is the opposite of format()"
 name = "parse"
 optional = false
 python-versions = "*"
-version = "1.18.0"
+version = "1.19.0"
 
 [[package]]
 category = "main"
@@ -249,7 +249,7 @@ description = "A library for interacting with features of repl.it"
 name = "replitdev"
 optional = false
 python-versions = ">=3.8,<4.0"
-version = "2.2.11"
+version = "2.5.22"
 
 [package.dependencies]
 aiohttp = ">=3.6.2,<4.0.0"
@@ -381,7 +381,7 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [metadata]
-content-hash = "165c3047fa4e43cd94bedbde89848016c708ec0bd5ebbe9ce4f30a3b0ddb9ec7"
+content-hash = "549f20d47c498ee9fdbeb5638ebd2b10fc0dfbd08e29c42477c7edc31dee4195"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -593,7 +593,7 @@ multidict = [
     {file = "multidict-5.1.0.tar.gz", hash = "sha256:25b4e5f22d3a37ddf3effc0710ba692cfc792c2b9edfb9c05aefe823256e84d5"},
 ]
 parse = [
-    {file = "parse-1.18.0.tar.gz", hash = "sha256:91666032d6723dc5905248417ef0dc9e4c51df9526aaeef271eacad6491f06a4"},
+    {file = "parse-1.19.0.tar.gz", hash = "sha256:9ff82852bcb65d139813e2a5197627a94966245c897796760a3a2a8eb66f020b"},
 ]
 pyee = [
     {file = "pyee-8.1.0-py2.py3-none-any.whl", hash = "sha256:383973b63ad7ed5e3c0311f8b179c52981f9e7b3eaea0e9a830d13ec34dde65f"},
@@ -608,8 +608,8 @@ pyquery = [
     {file = "pyquery-1.4.3.tar.gz", hash = "sha256:a388eefb6bc4a55350de0316fbd97cda999ae669b6743ae5b99102ba54f5aa72"},
 ]
 replitdev = [
-    {file = "replitdev-2.2.11-py3-none-any.whl", hash = "sha256:3bbfc19b5ebe269e3325c800a4fd1e11dd5b2d7181b9f1eadb501a9bc8f678f7"},
-    {file = "replitdev-2.2.11.tar.gz", hash = "sha256:8636b83ca6950bac8d1ed178f9b1be8cad2ba93c48ef2336d58d250d68dc2f65"},
+    {file = "replitdev-2.5.22-py3-none-any.whl", hash = "sha256:41d479454b46305e8e77f8d22a6f7fc62d1731102340ac0ed78b9d19046d980c"},
+    {file = "replitdev-2.5.22.tar.gz", hash = "sha256:9617eade1c9feb2f61bb93f87f506870f9b48061f434ac4c9d96efc78f62df58"},
 ]
 requests = [
     {file = "requests-2.15.1-py2.py3-none-any.whl", hash = "sha256:ff753b2196cd18b1bbeddc9dcd5c864056599f7a7d9a4fb5677e723efa2b7fb9"},

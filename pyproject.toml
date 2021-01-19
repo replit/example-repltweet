@@ -11,7 +11,7 @@ werkzeug = "^1.0.1"
 marshmallow = "^3.7.1"
 aiohttp = "^3.6.2"
 typing-extensions = "^3.7.4"
-replitdev = "^2.2.11"
+replitdev = "^2.5.22"
 
 [tool.poetry.dev-dependencies]
 
