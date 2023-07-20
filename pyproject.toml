@@ -9,7 +9,7 @@ python = "^3.8"
 flask = "^1.1.2"
 werkzeug = "^1.0.1"
 marshmallow = "^3.7.1"
-aiohttp = "^3.6.2"
+aiohttp = "^3.8.5"
 typing-extensions = "^3.7.4"
 replitdev = "^2.5.22"
 
